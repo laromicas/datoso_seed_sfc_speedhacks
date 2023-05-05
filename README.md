@@ -26,18 +26,6 @@ pip install datoso_seed_sfc_speedhacks
 Check [Datoso](https://github.com/laromicas/datoso) for usage.
 
 
-## Developing a seed
-
-Clone this repository and execute init.sh
-``` bash
-$ git clone https://github.com/laromicas/datoso_seed_sfc_speedhacks
-
-$ cd datoso_seed_sfc_speedhacks
-$ ./init.sh [new_name]   #e.g. ./init.sh newnointro
-
-```
-This creates a new folder with the name `datoso_seed_newnointro` with a scaffold to begin.
-
 ## TODO
 
 -   Tests
