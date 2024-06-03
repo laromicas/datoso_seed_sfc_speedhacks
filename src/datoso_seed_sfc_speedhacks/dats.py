@@ -10,7 +10,7 @@ class SFCSpeedHacksDat(XMLDatFile):
 
     seed: str = 'sfc_speedhacks'
 
-    def initial_parse(self):
+    def initial_parse(self) -> list:
         # pylint: disable=R0801
         """Parse the dat file."""
         name = self.name
@@ -31,7 +31,7 @@ class SFCSpeedHacksDat(XMLDatFile):
         return [self.prefix, self.company, self.system, self.suffix, self.get_date()]
 
 
-    def get_date(self):
+    def get_date(self) -> str:
         """Get the date from the dat file."""
         if self.file:
             result = re.findall(r'\(.*?\)', str(self.file))

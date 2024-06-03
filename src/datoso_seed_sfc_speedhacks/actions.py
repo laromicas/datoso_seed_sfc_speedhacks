@@ -1,3 +1,4 @@
+"""Actions for the sfc speedhacks seed."""
 from datoso_seed_sfc_speedhacks.dats import SFCSpeedHacksDat
 
 actions = {
@@ -20,5 +21,6 @@ actions = {
     ],
 }
 
-def get_actions():
+def get_actions() -> dict:
+    """Get the actions dictionary."""
     return actions
